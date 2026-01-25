@@ -4,9 +4,13 @@
 ### Unit Testing Principles
 - Introduction to unit testing principles.
 
-### JUnit Architecture and Maven/Gradle Setup
+### JUnit Architecture and Maven
 - How JUnit fits in the software development cycle.
-- Setting up JUnit with Maven and Gradle.
+- Setting up JUnit with Maven.
+- Junit Building Blocks 
+  - Intro to Jupiter
+  - Intro to Vintage
+  - Intro to Junit Platform
 
 ### Basic `@Test`, Assertions (`assertEquals`, `assertTrue`, `assertThrows`)
 - Writing basic test methods using the `@Test` annotation.
@@ -72,6 +76,8 @@
 ### Argument Matchers (`any()`, `eq()`)
 - Using argument matchers to match parameters in stubbing and verification.
 
+### Argument Captors (`argThat()`)
+
 ### Verification: `verify()`, `times()`, `atLeastOnce()`
 - Verifying that interactions with mocks occurred as expected:
     - `verify()`
@@ -85,6 +91,11 @@
 
 ### Hands-on: Multi-Dependency Service Tests
 - Writing tests for services with multiple dependencies.
+
+### Java Annotation
+- How Annotations in Java Work
+- Miniature view of how Junit Platform works
+
 
 ### Best Practices:
 - Test Isolation: Keep tests independent.
